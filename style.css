@@ -1,0 +1,107 @@
+/* Google_Homepage CSS*/
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    margin-left: 40%;
+    padding-top: 190px;
+}
+
+body {
+    font-family: open-sans, helvetica, arial;
+    color: rgb(0, 0, 0);
+}
+
+.searchbar {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: 40%;
+    border-radius: 2em;
+    border-style: solid;
+    text-indent: 20px;
+    font-size: 12pt;
+}
+
+.buddons {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(238, 238, 238);
+    border-style: hidden;
+    border-radius: .35em;
+    height: 35px;
+    width: 125px;
+    font-size: 13px;
+}
+
+.buttonholder {
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+input[type=search] {
+    background-color: white;
+    background-image: url(https://findicons.com/files/icons/2766/app_icons/52/magnifying_glass_2x.png);
+    background-size: 3%;
+    background-position: 10px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 18px;
+    margin-right: 18px;
+    padding: 0;
+    font-size: 10pt;
+}
+ 
+li {
+    display: inline;    
+    padding-right: 10px;
+ }
+
+a {
+    color:gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.apps {
+    background-image: src="images/google_apps_icon";
+    height: 18px;
+    float:right;
+    padding-right: 15px;
+}
+
+.signin {
+    background-color: #4385f7;
+    border-style: hidden;
+    border-radius: .2em;
+    float:right;
+    height: 30px;
+    width: 55px;
+    color: white;
+    margin:0;
+}
+
+.right {
+    float:right;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+
+}
